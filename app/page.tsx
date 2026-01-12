@@ -27,7 +27,7 @@ type Status = "ready" | "sending" | "success" | "error";
 // 🔹 Component
 // ==============================
 
-export default function GmailSenderApp(): JSX.Element {
+export default function GmailSenderApp() {
   const [subject, setSubject] = useState<string>("");
   const [body, setBody] = useState<string>("");
   const [recipients, setRecipients] = useState<string>("");
